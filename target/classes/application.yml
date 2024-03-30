@@ -1,0 +1,10 @@
+  server:
+    port: 9000
+    spring:
+      datasource:
+        url: jdbc:mysql://127.0.0.1:3306/world
+        username: admin1
+        password: 12345678
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      jpa:
+        show-sql: true
